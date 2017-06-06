@@ -12,7 +12,7 @@
 				</div>
 				<div class="panel-body">
 					{% for value in ultimosConectados %}
-					<p>{{ value }}</p>
+					<p><b>{{ value }}</b></p>
 					{% endfor %}
 				</div>
 			</div>

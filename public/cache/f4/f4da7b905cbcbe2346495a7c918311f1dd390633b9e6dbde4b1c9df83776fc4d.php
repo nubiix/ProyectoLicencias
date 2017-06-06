@@ -28,22 +28,13 @@ class __TwigTemplate_4b68904e22377c6c7dc6ed47d6abb2f2b4c23f541a4175eddf975079de6
     public function block_body($context, array $blocks = array())
     {
         // line 6
-        echo "
-
-
-
-
-
-
-
-
-<div class=\"col-xs-6\">
+        echo "<div class=\"col-xs-6\">
 \t<div class=\"row\">
 \t\t<h1>Subir alumnos desde archivo CSV</h1>
 \t</div>
 \t<div class=\"row\">
 \t\t<form method=\"POST\" action=\"";
-        // line 20
+        // line 11
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("subirusuariosalumnospost"), "html", null, true);
         echo "\" enctype=\"multipart/form-data\">
 \t\t\t<div class=\"form-group\">
@@ -56,7 +47,7 @@ class __TwigTemplate_4b68904e22377c6c7dc6ed47d6abb2f2b4c23f541a4175eddf975079de6
 </div>
 <div class=\"col-xs-6\">
 \t<form class=\"form-horizontal\" method=\"POST\" action=\"";
-        // line 30
+        // line 21
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("subirusuariosalumnosmanual"), "html", null, true);
         echo "\">
 \t\t<div class=\"form-group\">
@@ -185,7 +176,7 @@ class __TwigTemplate_4b68904e22377c6c7dc6ed47d6abb2f2b4c23f541a4175eddf975079de6
 
     public function getDebugInfo()
     {
-        return array (  60 => 30,  47 => 20,  31 => 6,  28 => 5,  11 => 1,);
+        return array (  51 => 21,  38 => 11,  31 => 6,  28 => 5,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -195,15 +186,6 @@ class __TwigTemplate_4b68904e22377c6c7dc6ed47d6abb2f2b4c23f541a4175eddf975079de6
 
 
 {% block body %}
-
-
-
-
-
-
-
-
-
 <div class=\"col-xs-6\">
 \t<div class=\"row\">
 \t\t<h1>Subir alumnos desde archivo CSV</h1>

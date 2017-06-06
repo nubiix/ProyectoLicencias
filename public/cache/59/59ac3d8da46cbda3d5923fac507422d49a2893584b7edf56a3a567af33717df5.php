@@ -42,9 +42,9 @@ class __TwigTemplate_86a91e8e50569d5c7b3a3ae64ad950eadd9a8342c60b25889aa705daf63
         $context['_seq'] = twig_ensure_traversable(($context["ultimosConectados"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["value"]) {
             // line 15
-            echo "\t\t\t\t\t<p>";
+            echo "\t\t\t\t\t<p><b>";
             echo twig_escape_filter($this->env, $context["value"], "html", null, true);
-            echo "</p>
+            echo "</b></p>
 \t\t\t\t\t";
         }
         $_parent = $context['_parent'];
@@ -195,7 +195,7 @@ class __TwigTemplate_86a91e8e50569d5c7b3a3ae64ad950eadd9a8342c60b25889aa705daf63
 \t\t\t\t</div>
 \t\t\t\t<div class=\"panel-body\">
 \t\t\t\t\t{% for value in ultimosConectados %}
-\t\t\t\t\t<p>{{ value }}</p>
+\t\t\t\t\t<p><b>{{ value }}</b></p>
 \t\t\t\t\t{% endfor %}
 \t\t\t\t</div>
 \t\t\t</div>

@@ -28,13 +28,13 @@
     					<p>Ciertamente programar tiene sus cosas buenas y malas, siempre que seas alguien curioso al cual le gusta crear cosas, investigar, actualizarse, te verás recompensado cuando consigas tu proposito o tu aplicación deseada. Pero de mientras preparate para dolores de cabeza y horas de vida y sueño perdidas. Pero que aburrida sería la vida si no nos la complicaramos. Un saludo de tu amigo y vecino Spider-m... Migue!</p>
     					<p><b>Redes:</b><p>
     					<p>
-	    					<a href="http://www.facebook.com/" target="_blank">
+	    					<a href="https://www.facebook.com/profile.php?id=100012279423015" target="_blank">
 	    						<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
 	    					</a>
-	    					<a href="http://www.twitter.com/" target="_blank">
+	    					<a href="https://twitter.com/Miguewoolf" target="_blank">
 	    						<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 	    					</a>
-	    					<a href="http://www.googleplus.com/" target="_blank">
+	    					<a href="https://plus.google.com/104121579322674560082" target="_blank">
 	    						<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
 	    					</a>
     					</p>
@@ -60,13 +60,13 @@
     					<p>Programar fue divertido, hasta que supe como se programaba, ahora, vago por estos lares pegandome con el codigo, haciendo cosas realmente guays, y enseñando a los jovenes lechones avidos de conocimiento porque es una mala idea estudiar el noble arte de pegarse con un ordenador... Suele ganar el... lokthar ogar! </p>
     					<p><b>Redes:</b><p>
     					<p>
-	    					<a href="http://www.facebook.com/" target="_blank">
+	    					<a href="https://www.facebook.com/romel.garciarodriguez" target="_blank">
 	    						<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
 	    					</a>
-	    					<a href="http://www.twitter.com/" target="_blank">
+	    					<a href="https://www.twitter.com/Kaosnubi" target="_blank">
 	    						<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 	    					</a>
-	    					<a href="http://www.googleplus.com/" target="_blank">
+	    					<a href="https://plus.google.com/100040519746345216465" target="_blank">
 	    						<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
 	    					</a>
     					</p>
@@ -110,7 +110,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container" style="margin-top: 10px">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href="https://github.com/ShiroiOkami/Proyecto_Licencias" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
+		<div class="container" style="margin-top: 10px">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href="https://github.com/nubiix/ProyectoLicencias" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
 	</div>
 </div>
 <div class="col-xs-2"></div>

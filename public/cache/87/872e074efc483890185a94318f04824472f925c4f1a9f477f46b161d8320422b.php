@@ -400,7 +400,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                       <a href=\"http://www.facebook.com/\" target=\"_blank\">
                         <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"http://www.twitter.com/\" target=\"_blank\">
+                      <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
                         <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                       </a>
                       <a href=\"http://www.googleplus.com/\" target=\"_blank\">
@@ -432,13 +432,13 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                       <p>Programar fue divertido, hasta que supe como se programaba, ahora, vago por estos lares pegandome con el codigo, haciendo cosas realmente guays, y enseñando a los jovenes lechones avidos de conocimiento porque es una mala idea estudiar el noble arte de pegarse con un ordenador... Suele ganar el... lokthar ogar! </p>
                       <p><b>Redes:</b><p>
                         <p>
-                          <a href=\"http://www.facebook.com/\" target=\"_blank\">
+                          <a href=\"https://www.facebook.com/romel.garciarodriguez\" target=\"_blank\">
                             <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                           </a>
-                          <a href=\"http://www.twitter.com/\" target=\"_blank\">
+                          <a href=\"https://www.twitter.com/Kaosnubi\" target=\"_blank\">
                             <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                           </a>
-                          <a href=\"http://www.googleplus.com/\" target=\"_blank\">
+                          <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
                             <i class=\"fa fa-google-plus fa-2x\" aria-hidden=\"true\"></i>
                           </a>
                         </p>
@@ -482,7 +482,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                     </div>
                   </div>
                 </div>
-                <div class=\"container\" style=\"margin-top: 10px\">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href=\"https://github.com/ShiroiOkami/Proyecto_Licencias\" target=\"_blank\"><i class=\"fa fa-github fa-2x\" aria-hidden=\"true\"></i></a></div>
+                <div class=\"container\" style=\"margin-top: 10px\">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href=\"https://github.com/nubiix/ProyectoLicencias\" target=\"_blank\"><i class=\"fa fa-github fa-2x\" aria-hidden=\"true\"></i></a></div>
               </div>
     </section>
 </div>
@@ -494,7 +494,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
     <!--Copyright-->
     <div class=\"footer-copyright\">
         <div class=\"container-fluid\">
-            © 2017 Copyright: <a href=\"https://www.apruebanosfabiola.com\">Miguel Angel & Romel </a>
+            © 2017 Copyright: <a href=\"http://www.apruebanosfabiola.com\">Miguel Angel & Romel </a>
 
         </div>
     </div>
@@ -786,7 +786,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                       <a href=\"http://www.facebook.com/\" target=\"_blank\">
                         <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"http://www.twitter.com/\" target=\"_blank\">
+                      <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
                         <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                       </a>
                       <a href=\"http://www.googleplus.com/\" target=\"_blank\">
@@ -815,13 +815,13 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                       <p>Programar fue divertido, hasta que supe como se programaba, ahora, vago por estos lares pegandome con el codigo, haciendo cosas realmente guays, y enseñando a los jovenes lechones avidos de conocimiento porque es una mala idea estudiar el noble arte de pegarse con un ordenador... Suele ganar el... lokthar ogar! </p>
                       <p><b>Redes:</b><p>
                         <p>
-                          <a href=\"http://www.facebook.com/\" target=\"_blank\">
+                          <a href=\"https://www.facebook.com/romel.garciarodriguez\" target=\"_blank\">
                             <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                           </a>
-                          <a href=\"http://www.twitter.com/\" target=\"_blank\">
+                          <a href=\"https://www.twitter.com/Kaosnubi\" target=\"_blank\">
                             <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                           </a>
-                          <a href=\"http://www.googleplus.com/\" target=\"_blank\">
+                          <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
                             <i class=\"fa fa-google-plus fa-2x\" aria-hidden=\"true\"></i>
                           </a>
                         </p>
@@ -865,7 +865,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                     </div>
                   </div>
                 </div>
-                <div class=\"container\" style=\"margin-top: 10px\">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href=\"https://github.com/ShiroiOkami/Proyecto_Licencias\" target=\"_blank\"><i class=\"fa fa-github fa-2x\" aria-hidden=\"true\"></i></a></div>
+                <div class=\"container\" style=\"margin-top: 10px\">Tras conocer a los mejores programadores que encontrarás en tu vida, seguramente quieras saber el codigo fuente de nuestra aplicación. Como somos tan magnánimos y benevolentes te ofrecemos el enlace a nuestro github donde encontraras todo el código de nuestra aplicación: <a href=\"https://github.com/nubiix/ProyectoLicencias\" target=\"_blank\"><i class=\"fa fa-github fa-2x\" aria-hidden=\"true\"></i></a></div>
               </div>
     </section>
 </div>
@@ -875,7 +875,7 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
     <!--Copyright-->
     <div class=\"footer-copyright\">
         <div class=\"container-fluid\">
-            © 2017 Copyright: <a href=\"https://www.apruebanosfabiola.com\">Miguel Angel & Romel </a>
+            © 2017 Copyright: <a href=\"http://www.apruebanosfabiola.com\">Miguel Angel & Romel </a>
 
         </div>
     </div>
