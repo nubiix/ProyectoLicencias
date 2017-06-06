@@ -397,13 +397,13 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                   <p>Ciertamente programar tiene sus cosas buenas y malas, siempre que seas alguien curioso al cual le gusta crear cosas, investigar, actualizarse, te verás recompensado cuando consigas tu proposito o tu aplicación deseada. Pero de mientras preparate para dolores de cabeza y horas de vida y sueño perdidas. Pero que aburrida sería la vida si no nos la complicaramos. Un saludo de tu amigo y vecino Spider-m... Migue!</p>
                   <p><b>Redes:</b><p>
                     <p>
-                      <a href=\"http://www.facebook.com/\" target=\"_blank\">
+                      <a href=\"https://www.facebook.com/profile.php?id=100012279423015\" target=\"_blank\">
                         <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
+                      <a href=\"https://twitter.com/Miguewoolf\" target=\"_blank\">
                         <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"http://www.googleplus.com/\" target=\"_blank\">
+                      <a href=\"https://plus.google.com/104121579322674560082\" target=\"_blank\">
                         <i class=\"fa fa-google-plus fa-2x\" aria-hidden=\"true\"></i>
                       </a>
                     </p>
@@ -783,13 +783,13 @@ class __TwigTemplate_0bbbffe4b082e9010c716aea1c2012e9d77ffe2177c8d0fd6f4fe8d0a0e
                   <p>Ciertamente programar tiene sus cosas buenas y malas, siempre que seas alguien curioso al cual le gusta crear cosas, investigar, actualizarse, te verás recompensado cuando consigas tu proposito o tu aplicación deseada. Pero de mientras preparate para dolores de cabeza y horas de vida y sueño perdidas. Pero que aburrida sería la vida si no nos la complicaramos. Un saludo de tu amigo y vecino Spider-m... Migue!</p>
                   <p><b>Redes:</b><p>
                     <p>
-                      <a href=\"http://www.facebook.com/\" target=\"_blank\">
+                      <a href=\"https://www.facebook.com/profile.php?id=100012279423015\" target=\"_blank\">
                         <i class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"https://plus.google.com/100040519746345216465\" target=\"_blank\">
+                      <a href=\"https://twitter.com/Miguewoolf\" target=\"_blank\">
                         <i class=\"fa fa-twitter fa-2x\" aria-hidden=\"true\"></i>
                       </a>
-                      <a href=\"http://www.googleplus.com/\" target=\"_blank\">
+                      <a href=\"https://plus.google.com/104121579322674560082\" target=\"_blank\">
                         <i class=\"fa fa-google-plus fa-2x\" aria-hidden=\"true\"></i>
                       </a>
                     </p>
