@@ -242,7 +242,7 @@ footer.page-footer {
             <div class="well">
               <div class="media-left">
                 <a href="#">
-                  <img class="zoomIt" src="{{base_url()}}/../img/kratos.png" alt="romel" width="64" height="64">
+                  <img class="zoomIt" src="{{base_url()}}/../img/romel.jpg" alt="romel" width="64" height="64">
                 </a>
               </div>
               <div class="media-body">
