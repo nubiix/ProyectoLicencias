@@ -52,11 +52,14 @@ $app->post('/', function ($request, $response, $args) use ($app, $model){
             setcookie("password",$password, time()+(60*60*24*365));
         }
     }
+
+    //inserta en la base de datos su conexion para llevar un registro de conexiones
     if(isset($user["id_usuario"]))
     {
         $model->insertar_conexion_usuario($user["id_usuario"]);
     }
-    //----------------------
+
+    //cambiar la contraseña la primera vez que entras
     if($usuario==$password && isset($user["id_usuario"]))
     {
         $_SESSION['id']=$user["id_usuario"];
@@ -65,7 +68,7 @@ $app->post('/', function ($request, $response, $args) use ($app, $model){
         return $this->view->fetch('cambioContra.php',$data);
         //return $response->withRedirect($app->getContainer()->get('router')->pathFor('cambioContra'));
     }
-    //--------------------------
+    
     //comprueba que tipo de usuario es el usuario a loguearse
     //y guarda en la variables session informacion de dicho usuario
     if($user["ref_tipo_usuario"]==1)
@@ -117,6 +120,7 @@ $app->post('/', function ($request, $response, $args) use ($app, $model){
         }
     } 
 
+    //si no entra en ningun if es que hay errores al intentar loguearse
     $error = array("error" => "1");
 
     return $this->view->fetch('login.twig.php', $error);
@@ -139,6 +143,7 @@ $app->get('/acercade', function ($request, $response, $args) use ($app) {
 
 })->setName('acercade');
 
+//ruta post de acerca de
 $app->post('/acercade', function ($request, $response, $args) use ($app) {
 
     if(isset($_REQUEST["tema"])){
@@ -311,7 +316,7 @@ $app->post('/admin/subirusuarios/alum', function ($request, $response, $args) us
 
 })->setName('subirusuariosalumnospost')->add($accesoLoginadmin);
 
-
+//ruta que sube los profesores desde un formulario manual
 $app->post('/admin/subirusuarios/profmanual', function ($request, $response, $args) use($app, $model){
 
     $fila=$_POST["direccion"].";".$_POST["nif_nie"].";".$_POST["nombre"].";".$_POST["primer_apellido"].";".$_POST["segundo_apellido"].";".$_POST["telefono_sms"].";".$_POST["direccion"].";".$_POST["email"].";".$_POST["numero_afiliacion"].";".$_POST["curso_tutor"];
@@ -321,7 +326,7 @@ $app->post('/admin/subirusuarios/profmanual', function ($request, $response, $ar
 
 })->setName('subirusuariosprofesoresmanual')->add($accesoLoginadmin);
 
-
+//ruta que sube los alumnos desde un formulario manual
 $app->post('/admin/subirusuarios/alummanual', function ($request, $response, $args) use($app, $model){
 
     $fila=$_POST["nombre_curso"].";".$_POST["nombre_curso_largo"].";".$_POST["numero_lista"].";".$_POST["nombre"].";".$_POST["primer_apellido"].";".$_POST["segundo_apellido"].";".$_POST["cial"].";".$_POST["expediente"].";".$_POST["nif_nie"].";".$_POST["telefono"].";".$_POST["telefono_sms"].";".$_POST["email"];
@@ -361,6 +366,7 @@ $app->post('/admin/subirusuarios/prof', function ($request, $response, $args) us
 
 })->setName('subirusuariosprofesorespost')->add($accesoLoginadmin);
 
+//ruta asociar claves de los profesores tutores a su curso
 $app->get('/prof/asociarclaves', function ($request, $response, $args) use ($app, $model){
 
     $curso = $model->devolver_curso_tutor($_SESSION['id']);
@@ -401,6 +407,7 @@ $app->get('/logout', function($request,$response,$args) use ($app, $model){
 
 })->setName('logout')->add($accesoLogin);
 
+//ruta de cambio de contraseña
 $app->post('/cambioContra', function ($request, $response, $args) use ($app, $model){
     
     $contra = $request->getParam('nuevaContra');
@@ -517,6 +524,7 @@ $app->post('/generar_pdf', function ($request, $response, $args) use ($app, $mod
 
 })->setName('generar_pdf');
 
+//ruta para generar todos los pdf
 $app->post('/generar_todos_pdf', function ($request, $response, $args) use ($app, $model){
 
     $datos_user = $model->obtener_usuario($_SESSION['id']);
@@ -539,13 +547,16 @@ $app->post('/generar_todos_pdf', function ($request, $response, $args) use ($app
 
 })->setName('generar_todos_pdf');
 
+//ruta get para actualizar los datos de los usuarios
 $app->get('/admin/actualizaruser', function ($request, $response, $args) use ($app){
 
     return $response->withRedirect($app->getContainer()->get('router')->pathFor('administrarusuariosget'));
 
 })->setName('actualizarUserget')->add($accesoLoginadmin);
 
+//ruta post para actualizar los datos de los usuarios
 $app->post('/admin/actualizaruser', function ($request, $response, $args) use($app, $model){
+    
     $array_de_envio = array();
     if(isset($_POST["numero_afiliacion"]))
     {
@@ -562,7 +573,7 @@ $app->post('/admin/actualizaruser', function ($request, $response, $args) use($a
 
 })->setName('actualizarUser')->add($accesoLoginadmin);
 
-//restaurar password
+//ruta para restaurar password
 $app->post('/restaurar_password', function ($request, $response, $args) use ($app,$model){
  
     $nif = $_POST["usuario"];
@@ -591,7 +602,8 @@ $app->post('/restaurar_password', function ($request, $response, $args) use ($ap
     return $this->view->fetch('login.twig.php');
  
 })->setName('restaurar_password');
- 
+
+//ruta para cambiar la contraseña
 $app->get('/renovarContra', function ($request, $response, $args) use ($app){
  
     $_GET["id"]=$_GET["i"]/760/3990/10000/640;
@@ -626,7 +638,6 @@ $app->post('/admin/enviar_contestacion', function ($request, $response, $args) u
     return $response->withRedirect($app->getContainer()->get('router')->pathFor('admin')); 
 
 })->setName('enviar_contestacion')->add($accesoLoginadmin);
-
 
 //ruta para cuando intentas acceder a un sitio sin permiso
 $app->get('/you_shall_not_pass', function ($request, $response, $args) use ($app){

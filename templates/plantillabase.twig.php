@@ -9,68 +9,66 @@
 	<link rel="stylesheet" type="text/css" href='{{base_url()}}/../assert/font-awesome-4.7.0/css/font-awesome.min.css'>
 	<!-- <link rel="stylesheet" type="text/css" href="{{base_url()}}/assert/bootstrap-languages-master/languages.min.css"> -->
 	<!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="{{base_url()}}/../assert/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="{{base_url()}}/../assert/css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="{{base_url()}}/../assert/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="{{base_url()}}/../assert/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="{{base_url()}}/../assert/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="{{base_url()}}/../assert/css/style.css" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script type="text/javascript" src="{{base_url()}}/../assert/js/myjs.js"></script>
 	<script type="text/javascript" src="{{base_url()}}/../assert/js/administrarUsuarios.js"></script>
 </head>
-<style>
-        /* TEMPLATE STYLES */
-        
-        html,
-        body,
-        .view {
-            height: 100%;
-        }
-        /* Navigation*/
-        
-        .navbar {
-            background-color: #3c4f74;
-        }
-        
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-        
-        .top-nav-collapse {
-            background-color: #3c4f74;
-        }
-        
-        footer.page-footer {
-            background-color: #3c4f74;
-            margin-top: 2rem;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .navbar {
-                background-color: #1C2331;
-            }
-        }
-        /*Call to action*/
-        
-  
-        .view {
-            background: url("http://localhost/Proyecto_Licencias/img/licencias_background.png")no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-        /*Contact section*/
-        
-        #contact .fa {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #1C2331;
-        }
+<style type="text/css">
+html,
+body,
+.view {
+    height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: #3c4f74;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #3c4f74;
+}
+
+footer.page-footer {
+    background-color: #3c4f74;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+/*Call to action*/
+
+
+.view {
+    background: url("http://localhost/Proyecto_Licencias/img/licencias_background.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Contact section*/
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1C2331;
+} 
 </style>
 <body><!-- {{ base_url() }} -->
 <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
@@ -324,16 +322,16 @@
     <!--/.Copyright-->
 </footer>
 
-	<!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="{{base_url()}}/../assert/js/jquery-3.1.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{{base_url()}}/../assert/js/tether.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{{base_url()}}/../assert/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{{base_url()}}/../assert/js/mdb.min.js"></script>
-	<!--<script type="text/javascript" src="{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
-	<script type="text/javascript" src="{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>-->
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="{{base_url()}}/../assert/js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{{base_url()}}/../assert/js/tether.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{{base_url()}}/../assert/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="{{base_url()}}/../assert/js/mdb.min.js"></script>
+<!--<script type="text/javascript" src="{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>-->
 </body>
 </html>
