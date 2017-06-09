@@ -169,8 +169,10 @@ class Claves_Model
                 if(!$this->saber_si_existe_usuario($nif_nie))
                 {
                     $insertar = $this->orm->usuarios();
-				$insertar->insert(array("nombre_curso" => $grupo_clase, 'nombre_curso_largo'=>$estudio_den_larga, "numero_lista" => $nlista, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "cial" => $cial, "expediente" => $expediente, "nif_nie" => $nif_nie, "telefono" => $telefono, "telefono_sms" => $tlf_sms, "email" => $email, "password" => $password, "url_foto" => $ruta_foto, "ref_tipo_usuario" => 3));    
+					$insertar->insert(array("nombre_curso" => $grupo_clase, 'nombre_curso_largo'=>$estudio_den_larga, "numero_lista" => $nlista, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "cial" => $cial, "expediente" => $expediente, "nif_nie" => $nif_nie, "telefono" => $telefono, "telefono_sms" => $tlf_sms, "email" => $email, "password" => $password, "url_foto" => $ruta_foto, "ref_tipo_usuario" => 3));    
                 }else{
+                	$update = $this->orm->usuarios();
+					$update->update(array("nombre_curso" => $grupo_clase, 'nombre_curso_largo'=>$estudio_den_larga, "numero_lista" => $nlista, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "cial" => $cial, "expediente" => $expediente, "telefono" => $telefono, "telefono_sms" => $tlf_sms, "email" => $email));
                     array_push($fallos,$numArray);
                 }
                 $numArray++;
@@ -283,6 +285,7 @@ class Claves_Model
                     $insertar = $this->orm->usuarios();
 				    $insertar->insert(array("departamento" => $departamento, "nif_nie" => $nif_nie, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "telefono_sms" => $tlf_sms, "direccion" => $direccion, "email" => $email, "numero_afiliacion" => $afiliacion, "ref_curso_tutor" => $tutor, "password" => $password, "ref_tipo_usuario" => $tipo_prof));
                 }else{
+                	$insertar->insert(array("departamento" => $departamento, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "telefono_sms" => $tlf_sms, "direccion" => $direccion, "email" => $email, "numero_afiliacion" => $afiliacion, "ref_curso_tutor" => $tutor, "password" => $password, "ref_tipo_usuario" => $tipo_prof));
                     array_push($fallos,$numArray);
                 }
                 $numArray++;
