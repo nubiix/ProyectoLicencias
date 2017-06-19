@@ -184,6 +184,8 @@ $app->get('/admin', function ($request, $response, $args) use ($app,$model){
     $mensajesNoContestados = $model->obtener_mensajes_no_contestados();
     $arrayTotalLicencias = $model->obtener_total_licencias();
     
+    //var_dump($mensajesNoContestados);
+    //die();
     $data=array("ultimosConectados"=>$arrayUltimosConectados, "mensajes"=>$mensajesNoContestados, "totalLicencias"=>$arrayTotalLicencias);
     
     return $this->view->fetch('principaladmin.twig.php',$data);
@@ -311,6 +313,8 @@ $app->post('/admin/subirusuarios/alum', function ($request, $response, $args) us
     $res = $csv->fetchAll();
     unlink('../assert/ficheroscsv/temp.csv');
     unset($res[0]);
+    /*var_dump($res);
+    die();*/
     $model->subir_alumnos($res);
     return $this->view->fetch('subirusuarios.twig.php');
 
@@ -360,6 +364,8 @@ $app->post('/admin/subirusuarios/prof', function ($request, $response, $args) us
     unlink('../assert/ficheroscsv/temp.csv');
     unset($res[0]);
     //llamada al modelo
+    //var_dump($res);
+    //die();
     $model->subir_profesores($res);
 
     return $this->view->fetch('subirusuarios.twig.php');

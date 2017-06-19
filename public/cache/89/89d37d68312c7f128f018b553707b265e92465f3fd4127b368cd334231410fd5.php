@@ -84,7 +84,7 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
 \t\t\t\t\t<h3 class=\"panel-title\">Mensajes no contestados <span class=\"badge\">
 \t\t\t\t\t\t\t";
         // line 34
-        if ((twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array") == "No tienes ningun mensaje pendiente")) {
+        if ((twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), 0, array(), "array") == "no tienes ningun mensaje pendiente")) {
             // line 35
             echo "\t\t\t\t\t\t\t\t0
 \t\t\t\t\t\t\t";
@@ -99,7 +99,7 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
         echo "\t\t\t\t\t</span></h3>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"panel-body\">
-\t\t\t\t\t";
+\t\t\t\t";
         // line 42
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(range(0, (twig_length_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array")) - 1)));
@@ -120,42 +120,49 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 3, array(), "array"), $context["i"], array(), "array"), "html", null, true);
             echo "</label></div>
 \t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t<form class=\"form-horizontal\" action=\"";
-            // line 50
-            echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("enviar_contestacion"), "html", null, true);
-            echo "\" method=\"POST\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
-\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_id\" value=\"";
-            // line 52
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
-            echo "\">
-\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_email\" value=\"";
-            // line 53
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 1, array(), "array"), $context["i"], array(), "array"), "html", null, true);
-            echo "\">
-\t\t\t\t\t\t\t\t\t\t<textarea id=\"";
-            // line 54
-            echo twig_escape_filter($this->env, ("contestacion," . twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array")), "html", null, true);
-            echo "\" name=\"contestacion\"></textarea>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
-\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default\" id=\"";
-            // line 57
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
-            echo "\" name=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
-            echo "\">Enviar Contestacion</button>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t</form>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
+\t\t\t\t\t\t\t";
+            // line 49
+            if (twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 1, array(), "array", true, true)) {
+                // line 50
+                echo "\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<form class=\"form-horizontal\" action=\"";
+                // line 51
+                echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("enviar_contestacion"), "html", null, true);
+                echo "\" method=\"POST\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
+\t\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_id\" value=\"";
+                // line 53
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
+                echo "\">
+\t\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_email\" value=\"";
+                // line 54
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 1, array(), "array"), $context["i"], array(), "array"), "html", null, true);
+                echo "\">
+\t\t\t\t\t\t\t\t\t\t\t<textarea id=\"";
+                // line 55
+                echo twig_escape_filter($this->env, ("contestacion," . twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array")), "html", null, true);
+                echo "\" name=\"contestacion\"></textarea>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
+\t\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default\" id=\"";
+                // line 58
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
+                echo "\" name=\"";
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["mensajes"] ?? null), 0, array(), "array"), $context["i"], array(), "array"), "html", null, true);
+                echo "\">Enviar Contestacion</button>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t";
+            }
+            // line 63
+            echo "\t\t\t\t\t</div>
 \t\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 63
+        // line 65
         echo "\t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
@@ -176,7 +183,7 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
 
     public function getDebugInfo()
     {
-        return array (  159 => 63,  145 => 57,  139 => 54,  135 => 53,  131 => 52,  126 => 50,  120 => 47,  116 => 46,  112 => 45,  108 => 43,  104 => 42,  99 => 39,  93 => 37,  89 => 35,  87 => 34,  78 => 27,  67 => 25,  63 => 24,  54 => 17,  45 => 15,  41 => 14,  31 => 6,  28 => 5,  11 => 1,);
+        return array (  166 => 65,  159 => 63,  149 => 58,  143 => 55,  139 => 54,  135 => 53,  130 => 51,  127 => 50,  125 => 49,  120 => 47,  116 => 46,  112 => 45,  108 => 43,  104 => 42,  99 => 39,  93 => 37,  89 => 35,  87 => 34,  78 => 27,  67 => 25,  63 => 24,  54 => 17,  45 => 15,  41 => 14,  31 => 6,  28 => 5,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -214,7 +221,7 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
 \t\t\t<div class=\"panel panel-primary\">
 \t\t\t\t<div class=\"panel-heading\">
 \t\t\t\t\t<h3 class=\"panel-title\">Mensajes no contestados <span class=\"badge\">
-\t\t\t\t\t\t\t{% if mensajes[0] == 'No tienes ningun mensaje pendiente' %}
+\t\t\t\t\t\t\t{% if mensajes[0][0] == 'no tienes ningun mensaje pendiente' %}
 \t\t\t\t\t\t\t\t0
 \t\t\t\t\t\t\t{% else %}
 \t\t\t\t\t\t\t\t{{ mensajes[0]|length }}
@@ -222,25 +229,27 @@ class __TwigTemplate_bce5c6ce7a383a6689e171e2c19982f41e64436c0bfa3b05795bc6ce145
 \t\t\t\t\t</span></h3>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"panel-body\">
-\t\t\t\t\t{% for i in 0..(mensajes[0]|length-1) %}
+\t\t\t\t{% for i in 0..(mensajes[0]|length-1) %}
 \t\t\t\t\t<div class=\"row well\" style=\"margin: 5px;\">
 \t\t\t\t\t\t    <div class=\"row\">
 \t\t\t\t\t\t        <div class=\"col-xs-4\"><label>{{ mensajes[1][i] }}</label></div>
 \t\t\t\t\t\t        <div class=\"col-xs-4\"><label>{{ mensajes[2][i] }}</label></div>
 \t\t\t\t\t\t        <div class=\"col-xs-4\"><label>{{ mensajes[3][i] }}</label></div>
 \t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"row\">
-\t\t\t\t\t\t\t\t<form class=\"form-horizontal\" action=\"{{path_for('enviar_contestacion')}}\" method=\"POST\">
-\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
-\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_id\" value=\"{{ mensajes[0][i] }}\">
-\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_email\" value=\"{{ mensajes[1][i] }}\">
-\t\t\t\t\t\t\t\t\t\t<textarea id=\"{{'contestacion,'~mensajes[0][i] }}\" name=\"contestacion\"></textarea>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
-\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default\" id=\"{{ mensajes[0][i] }}\" name=\"{{ mensajes[0][i] }}\">Enviar Contestacion</button>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t</form>
-\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t{% if mensajes[1] is defined %}
+\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<form class=\"form-horizontal\" action=\"{{path_for('enviar_contestacion')}}\" method=\"POST\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
+\t\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_id\" value=\"{{ mensajes[0][i] }}\">
+\t\t\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"contestacion_email\" value=\"{{ mensajes[1][i] }}\">
+\t\t\t\t\t\t\t\t\t\t\t<textarea id=\"{{'contestacion,'~mensajes[0][i] }}\" name=\"contestacion\"></textarea>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-6\">
+\t\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-default\" id=\"{{ mensajes[0][i] }}\" name=\"{{ mensajes[0][i] }}\">Enviar Contestacion</button>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t{% endif %}
 \t\t\t\t\t</div>
 \t\t\t\t\t{% endfor %}
 \t\t\t\t</div>

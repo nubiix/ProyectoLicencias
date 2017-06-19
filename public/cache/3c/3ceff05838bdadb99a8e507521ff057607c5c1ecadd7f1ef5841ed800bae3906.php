@@ -78,7 +78,7 @@ class __TwigTemplate_289ae2e857057d9be3793736cc242febb46aed17cd2bde6ef2413622736
 \t\t\t\t\t<img class=\"zoomIt\" src=\"";
         // line 50
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
-        echo "/../img/kratos.png\" alt=\"romel\" width=\"64\" height=\"64\">
+        echo "/../img/romel.jpg\" alt=\"romel\" width=\"64\" height=\"64\">
 \t\t\t\t</a>
 \t\t\t</div>
 \t\t\t<div class=\"media-body\">
@@ -216,7 +216,7 @@ class __TwigTemplate_289ae2e857057d9be3793736cc242febb46aed17cd2bde6ef2413622736
 \t\t<div class=\"well\">
 \t\t\t<div class=\"media-left\">
 \t\t\t\t<a href=\"#\">
-\t\t\t\t\t<img class=\"zoomIt\" src=\"{{base_url()}}/../img/kratos.png\" alt=\"romel\" width=\"64\" height=\"64\">
+\t\t\t\t\t<img class=\"zoomIt\" src=\"{{base_url()}}/../img/romel.jpg\" alt=\"romel\" width=\"64\" height=\"64\">
 \t\t\t\t</a>
 \t\t\t</div>
 \t\t\t<div class=\"media-body\">

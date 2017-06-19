@@ -150,7 +150,7 @@ class Claves_Model
 		try{
 			
 			foreach ($arraydefilas as $fila) {
-				$resultado=explode(";", $fila);
+				$resultado=explode(";", $fila[0]);
 				$grupo_clase=$resultado[0];
 				$estudio_den_larga=$resultado[1];
 				$nlista=$resultado[2];
@@ -171,7 +171,7 @@ class Claves_Model
                     $insertar = $this->orm->usuarios();
 					$insertar->insert(array("nombre_curso" => $grupo_clase, 'nombre_curso_largo'=>$estudio_den_larga, "numero_lista" => $nlista, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "cial" => $cial, "expediente" => $expediente, "nif_nie" => $nif_nie, "telefono" => $telefono, "telefono_sms" => $tlf_sms, "email" => $email, "password" => $password, "url_foto" => $ruta_foto, "ref_tipo_usuario" => 3));    
                 }else{
-                	$update = $this->orm->usuarios();
+                	$update = $this->orm->usuarios->where("nif_nie = ?",$nif_nie);   
 					$update->update(array("nombre_curso" => $grupo_clase, 'nombre_curso_largo'=>$estudio_den_larga, "numero_lista" => $nlista, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "cial" => $cial, "expediente" => $expediente, "telefono" => $telefono, "telefono_sms" => $tlf_sms, "email" => $email));
                     array_push($fallos,$numArray);
                 }
@@ -259,6 +259,7 @@ class Claves_Model
 			foreach ($arraydefilas as $fila) {
 				$resultado=$fila;
 				//var_dump($resultado);
+
 				$departamento=$resultado[0];
 				$nif_nie=$resultado[1];
 				$nombre=mb_convert_case(mb_convert_case($resultado[2], MB_CASE_LOWER), MB_CASE_TITLE);
@@ -285,7 +286,8 @@ class Claves_Model
                     $insertar = $this->orm->usuarios();
 				    $insertar->insert(array("departamento" => $departamento, "nif_nie" => $nif_nie, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "telefono_sms" => $tlf_sms, "direccion" => $direccion, "email" => $email, "numero_afiliacion" => $afiliacion, "ref_curso_tutor" => $tutor, "password" => $password, "ref_tipo_usuario" => $tipo_prof));
                 }else{
-                	$insertar->insert(array("departamento" => $departamento, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "telefono_sms" => $tlf_sms, "direccion" => $direccion, "email" => $email, "numero_afiliacion" => $afiliacion, "ref_curso_tutor" => $tutor, "password" => $password, "ref_tipo_usuario" => $tipo_prof));
+                	$update = $this->orm->usuarios->where("nif_nie = ?",$nif_nie);                	
+                	$update->update(array("departamento" => $departamento, "nombre" => $nombre,"primer_apellido" => $primer_apellido, "segundo_apellido" => $segundo_apellido, "telefono_sms" => $tlf_sms, "direccion" => $direccion, "email" => $email, "numero_afiliacion" => $afiliacion, "ref_curso_tutor" => $tutor, "password" => $password, "ref_tipo_usuario" => $tipo_prof));
                     array_push($fallos,$numArray);
                 }
                 $numArray++;
@@ -477,6 +479,7 @@ class Claves_Model
 	                $segundos = strtotime(date('Y-m-d H:i:s', time())) - strtotime($r["fecha_conexion"]);
 	                $minutos = floor($segundos/60);
 	                $segundos -= $minutos*60;
+	                $minutos +=60;
 	                if($minutos>60)
 	                {
 	                    $horas =floor($minutos/60);

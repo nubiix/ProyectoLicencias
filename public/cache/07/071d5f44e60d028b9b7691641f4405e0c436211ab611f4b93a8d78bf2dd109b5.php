@@ -45,19 +45,19 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/assert/bootstrap-languages-master/languages.min.css\"> -->
 \t<!-- Font Awesome -->
-    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">
-    <!-- Bootstrap core CSS -->
-    <link href=\"";
+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">
+  <!-- Bootstrap core CSS -->
+  <link href=\"";
         // line 14
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/css/bootstrap.min.css\" rel=\"stylesheet\">
-    <!-- Material Design Bootstrap -->
-    <link href=\"";
+  <!-- Material Design Bootstrap -->
+  <link href=\"";
         // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/css/mdb.min.css\" rel=\"stylesheet\">
-    <!-- Your custom styles (optional) -->
-    <link href=\"";
+  <!-- Your custom styles (optional) -->
+  <link href=\"";
         // line 18
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/css/style.css\" rel=\"stylesheet\">
@@ -71,60 +71,58 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/js/administrarUsuarios.js\"></script>
 </head>
-<style>
-        /* TEMPLATE STYLES */
-        
-        html,
-        body,
-        .view {
-            height: 100%;
-        }
-        /* Navigation*/
-        
-        .navbar {
-            background-color: #3c4f74;
-        }
-        
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-        
-        .top-nav-collapse {
-            background-color: #3c4f74;
-        }
-        
-        footer.page-footer {
-            background-color: #3c4f74;
-            margin-top: 2rem;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .navbar {
-                background-color: #1C2331;
-            }
-        }
-        /*Call to action*/
-        
-  
-        .view {
-            background: url(\"http://localhost/Proyecto_Licencias/img/licencias_background.png\")no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-        /*Contact section*/
-        
-        #contact .fa {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #1C2331;
-        }
+<style type=\"text/css\">
+html,
+body,
+.view {
+    height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: #3c4f74;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #3c4f74;
+}
+
+footer.page-footer {
+    background-color: #3c4f74;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+/*Call to action*/
+
+
+.view {
+    background: url(\"http://localhost/Proyecto_Licencias/img/licencias_background.png\")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Contact section*/
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1C2331;
+} 
 </style>
 <body><!-- ";
-        // line 75
+        // line 73
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo " -->
 <nav class=\"navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar\">
@@ -133,20 +131,20 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
             <span class=\"navbar-toggler-icon\"></span>
         </button>
         <a class=\"navbar-brand\" href=\"";
-        // line 81
+        // line 79
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("login"), "html", null, true);
         echo "\">
             <strong>LICENCIAS ULTIMATE EDITION</strong>
         </a>
         ";
-        // line 84
+        // line 82
         if ((($context["user"] ?? null) == false)) {
-            // line 85
+            // line 83
             echo "        <div class=\"collapse navbar-collapse\" id=\"navbarNav1\">
             <ul class=\"navbar-nav mr-auto\">
                 <li class=\"nav-item\" id=\"li_login\">
                     <a class=\"nav-link\" href=\"";
-            // line 88
+            // line 86
             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("login"), "html", null, true);
             echo "\">Login</a>
                 </li>
@@ -157,15 +155,15 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
         </div>
         ";
         } else {
-            // line 96
+            // line 94
             echo "          ";
             if ((($context["tipo_usuario"] ?? null) == 1)) {
-                // line 97
+                // line 95
                 echo "            <div class=\"collapse navbar-collapse\" id=\"navbarNav1\">
               <ul class=\"navbar-nav mr-auto\">
                   <li class=\"nav-item li-admin\" id=\"li_admin\">
                       <a class=\"nav-link\" href=\"";
-                // line 100
+                // line 98
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("admin"), "html", null, true);
                 echo "\">Usuario: ";
                 echo twig_escape_filter($this->env, ($context["user"] ?? null), "html", null, true);
@@ -173,43 +171,43 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                   </li>
                   <li class=\"nav-item li-subirxml\" id=\"li_subirxml\">
                       <a class=\"nav-link\" href=\"";
-                // line 103
+                // line 101
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("subirxmlget"), "html", null, true);
                 echo "\">Subir xml</a>
                   </li>
                   <li class=\"nav-item li-subirlicenciavolumen\" id=\"li_subirlicenciavolumen\">
                       <a class=\"nav-link\" href=\"";
-                // line 106
+                // line 104
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("subirlicenciavolumen"), "html", null, true);
                 echo "\">Subir licencia de volumen</a>
                   </li>
                   <li class=\"nav-item li-subirusuarios\" id=\"li_subirusuarios\">
                       <a class=\"nav-link\" href=\"";
-                // line 109
+                // line 107
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("subirusuariosget"), "html", null, true);
                 echo "\">Subir usuario</a>
                   </li>
                   <li class=\"nav-item li-asociarclaves\" id=\"li_asociarclaves\">
                       <a class=\"nav-link\" href=\"";
-                // line 112
+                // line 110
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("asociarclavesget"), "html", null, true);
                 echo "\">Asociar claves</a>
                   </li>
                   <li class=\"nav-item li-administrarusuarios\" id=\"li_administrarusuarios\">
                       <a class=\"nav-link\" href=\"";
-                // line 115
+                // line 113
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("administrarusuariosget"), "html", null, true);
                 echo "\">Administrar usuarios</a>
                   </li>
                   <li class=\"nav-item li_acercade\" id=\"li_acercade\">
                       <a class=\"nav-link\" href=\"";
-                // line 118
+                // line 116
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("acercade"), "html", null, true);
                 echo "\">Acerca de</a>
                   </li>
                   <li class=\"nav-item li-logout\" id=\"li_logout\">
                       <a class=\"nav-link\" href=\"";
-                // line 121
+                // line 119
                 echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("logout"), "html", null, true);
                 echo "\">Logout</a>
                   </li>
@@ -217,15 +215,15 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
             </div>
         ";
             } else {
-                // line 126
+                // line 124
                 echo "\t\t    ";
                 if ((($context["tipo_usuario"] ?? null) == 2)) {
-                    // line 127
+                    // line 125
                     echo "\t\t      <div class=\"collapse navbar-collapse\" id=\"navbarNav1\">
                   <ul class=\"navbar-nav mr-auto\">
                       <li class=\"nav-item li-profesor\" id=\"li_profesor\">
                           <a class=\"nav-link\" href=\"";
-                    // line 130
+                    // line 128
                     echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("profesor"), "html", null, true);
                     echo "\">Usuario: ";
                     echo twig_escape_filter($this->env, ($context["user"] ?? null), "html", null, true);
@@ -233,19 +231,19 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                       </li>
                       <li class=\"nav-item li-licenciasvolumen\" id=\"li_licenciasvolumen\">
                           <a class=\"nav-link\" href=\"";
-                    // line 133
+                    // line 131
                     echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("licencias_volumen"), "html", null, true);
                     echo "\">Ver licencias volumen</a>
                       </li>
                       <li class=\"nav-item li_acercade\" id=\"li_acercade\">
                           <a class=\"nav-link\" href=\"";
-                    // line 136
+                    // line 134
                     echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("acercade"), "html", null, true);
                     echo "\">Acerca de</a>
                       </li>
                       <li class=\"nav-item li-logout\" id=\"li_logout\">
                           <a class=\"nav-link\" href=\"";
-                    // line 139
+                    // line 137
                     echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("logout"), "html", null, true);
                     echo "\">Logout</a>
                       </li>
@@ -253,15 +251,15 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
               </div>
 \t\t    ";
                 } else {
-                    // line 144
+                    // line 142
                     echo "\t\t\t    ";
                     if ((($context["tipo_usuario"] ?? null) == 3)) {
-                        // line 145
+                        // line 143
                         echo "                    <div class=\"collapse navbar-collapse\" id=\"navbarNav1\">
                               <ul class=\"navbar-nav mr-auto\">
                                   <li class=\"nav-item li-profesor\" id=\"li_alumno\">
                                       <a class=\"nav-link\" href=\"";
-                        // line 148
+                        // line 146
                         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("profesor"), "html", null, true);
                         echo "\">Usuario: ";
                         echo twig_escape_filter($this->env, ($context["user"] ?? null), "html", null, true);
@@ -269,13 +267,13 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                                   </li>
                                   <li class=\"nav-item li_acercade\" id=\"li_acercade\">
                                       <a class=\"nav-link\" href=\"";
-                        // line 151
+                        // line 149
                         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("acercade"), "html", null, true);
                         echo "\">Acerca de</a>
                                   </li>
                                   <li class=\"nav-item li-logout\" id=\"li_logout\">
                                       <a class=\"nav-link\" href=\"";
-                        // line 154
+                        // line 152
                         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("logout"), "html", null, true);
                         echo "\">Logout</a>
                                   </li>
@@ -283,15 +281,15 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                           </div>
     \t\t    ";
                     } else {
-                        // line 159
+                        // line 157
                         echo "\t\t\t\t    ";
                         if ((($context["tipo_usuario"] ?? null) == 4)) {
-                            // line 160
+                            // line 158
                             echo "\t\t\t\t        <div class=\"collapse navbar-collapse\" id=\"navbarNav1\">
                               <ul class=\"navbar-nav mr-auto\">
                                   <li class=\"nav-item li-profesor\" id=\"li_profesor\">
                                       <a class=\"nav-link\" href=\"";
-                            // line 163
+                            // line 161
                             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("profesor"), "html", null, true);
                             echo "\">Usuario: ";
                             echo twig_escape_filter($this->env, ($context["user"] ?? null), "html", null, true);
@@ -299,25 +297,25 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                                   </li>
                                   <li class=\"nav-item li-licenciasvolumen\" id=\"li_licenciasvolumen\">
                                       <a class=\"nav-link\" href=\"";
-                            // line 166
+                            // line 164
                             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("licencias_volumen"), "html", null, true);
                             echo "\">Ver licencias volumen</a>
                                   </li>
                                   <li class=\"nav-item li-asociarclaves\" id=\"li_asociarclaves\">
                                       <a class=\"nav-link\" href=\"";
-                            // line 169
+                            // line 167
                             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("asociarclavesprofpost"), "html", null, true);
                             echo "\">Asociar claves</a>
                                   </li>
                                   <li class=\"nav-item li_acercade\" id=\"li_acercade\">
                                       <a class=\"nav-link\" href=\"";
-                            // line 172
+                            // line 170
                             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("acercade"), "html", null, true);
                             echo "\">Acerca de</a>
                                   </li>
                                   <li class=\"nav-item li-logout\" id=\"li_logout\">
                                       <a class=\"nav-link\" href=\"";
-                            // line 175
+                            // line 173
                             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->pathFor("logout"), "html", null, true);
                             echo "\">Logout</a>
                                   </li>
@@ -325,39 +323,39 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
                           </div>
 \t\t\t\t    ";
                         }
-                        // line 180
+                        // line 178
                         echo "\t\t        ";
                     }
-                    // line 181
+                    // line 179
                     echo "\t\t    ";
                 }
-                // line 182
+                // line 180
                 echo "\t    ";
             }
-            // line 183
+            // line 181
             echo "    ";
         }
-        // line 184
+        // line 182
         echo "    </div>
 </nav>
 <!-- style=\"background:rgba(255,255,255,0.8);  border: 2px solid white; border-radius: 25px; box-shadow: 2px 2px 5px 5px; margin-top: 30px\" en el container -->
 ";
-        // line 187
+        // line 185
         if ((($context["user"] ?? null) == false)) {
-            // line 188
+            // line 186
             echo "<div class=\"view hm-black-strong\">
     <div class=\"full-bg-img flex-center\">
 ";
         } else {
-            // line 191
+            // line 189
             echo "<div class=\"container\" style=\"margin-top: 100px\">
   <div>
 ";
         }
-        // line 194
+        // line 192
         echo "      ";
         $this->displayBlock('body', $context, $blocks);
-        // line 195
+        // line 193
         echo "    </div>
 </div>
 
@@ -368,9 +366,9 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
 </div>
 
 ";
-        // line 204
+        // line 202
         if ((($context["user"] ?? null) == false)) {
-            // line 205
+            // line 203
             echo "<div class=\"container\">
 \t<div class=\"divider-new\">
 \t    <h2 class=\"h2-responsive wow fadeIn\" data-wow-delay=\"0.2s\" style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;\">Acerca de</h2>
@@ -383,7 +381,7 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
         <div class=\"well\">
           <div class=\"media-left\">
           <img class=\"zoomIt\" src=\"";
-            // line 216
+            // line 214
             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
             echo "/../img/migue.png\" alt=\"migue\" width=\"64\" height=\"64\">
           </div>
@@ -417,7 +415,7 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
               <div class=\"media-left\">
                 <a href=\"#\">
                   <img class=\"zoomIt\" src=\"";
-            // line 247
+            // line 245
             echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
             echo "/../img/romel.jpg\" alt=\"romel\" width=\"64\" height=\"64\">
                 </a>
@@ -488,7 +486,7 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
 </div>
 ";
         }
-        // line 315
+        // line 313
         echo "
 <footer class=\"page-footer center-on-small-only\">
     <!--Copyright-->
@@ -501,40 +499,40 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
     <!--/.Copyright-->
 </footer>
 
-\t<!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type=\"text/javascript\" src=\"";
-        // line 329
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type=\"text/javascript\" src=\"";
+        // line 327
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/js/jquery-3.1.1.min.js\"></script>
-    <!-- Bootstrap tooltips -->
-    <script type=\"text/javascript\" src=\"";
-        // line 331
+<!-- Bootstrap tooltips -->
+<script type=\"text/javascript\" src=\"";
+        // line 329
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/js/tether.min.js\"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type=\"text/javascript\" src=\"";
-        // line 333
+<!-- Bootstrap core JavaScript -->
+<script type=\"text/javascript\" src=\"";
+        // line 331
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/js/bootstrap.min.js\"></script>
-    <!-- MDB core JavaScript -->
-    <script type=\"text/javascript\" src=\"";
-        // line 335
+<!-- MDB core JavaScript -->
+<script type=\"text/javascript\" src=\"";
+        // line 333
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/js/mdb.min.js\"></script>
-\t<!--<script type=\"text/javascript\" src=\"";
-        // line 336
+<!--<script type=\"text/javascript\" src=\"";
+        // line 334
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/bootstrap-3.3.7-dist/js/jquery.min.js\"></script>
-\t<script type=\"text/javascript\" src=\"";
-        // line 337
+<script type=\"text/javascript\" src=\"";
+        // line 335
         echo twig_escape_filter($this->env, $this->env->getExtension('Slim\Views\TwigExtension')->baseUrl(), "html", null, true);
         echo "/../assert/bootstrap-3.3.7-dist/js/bootstrap.min.js\"></script>-->
 </body>
 </html>";
     }
 
-    // line 194
+    // line 192
     public function block_body($context, array $blocks = array())
     {
     }
@@ -551,7 +549,7 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
 
     public function getDebugInfo()
     {
-        return array (  538 => 194,  531 => 337,  527 => 336,  523 => 335,  518 => 333,  513 => 331,  508 => 329,  492 => 315,  421 => 247,  387 => 216,  374 => 205,  372 => 204,  361 => 195,  358 => 194,  353 => 191,  348 => 188,  346 => 187,  341 => 184,  338 => 183,  335 => 182,  332 => 181,  329 => 180,  321 => 175,  315 => 172,  309 => 169,  303 => 166,  295 => 163,  290 => 160,  287 => 159,  279 => 154,  273 => 151,  265 => 148,  260 => 145,  257 => 144,  249 => 139,  243 => 136,  237 => 133,  229 => 130,  224 => 127,  221 => 126,  213 => 121,  207 => 118,  201 => 115,  195 => 112,  189 => 109,  183 => 106,  177 => 103,  169 => 100,  164 => 97,  161 => 96,  150 => 88,  145 => 85,  143 => 84,  137 => 81,  128 => 75,  71 => 21,  67 => 20,  62 => 18,  57 => 16,  52 => 14,  45 => 10,  41 => 9,  37 => 8,  31 => 7,  27 => 6,  20 => 1,);
+        return array (  536 => 192,  529 => 335,  525 => 334,  521 => 333,  516 => 331,  511 => 329,  506 => 327,  490 => 313,  419 => 245,  385 => 214,  372 => 203,  370 => 202,  359 => 193,  356 => 192,  351 => 189,  346 => 186,  344 => 185,  339 => 182,  336 => 181,  333 => 180,  330 => 179,  327 => 178,  319 => 173,  313 => 170,  307 => 167,  301 => 164,  293 => 161,  288 => 158,  285 => 157,  277 => 152,  271 => 149,  263 => 146,  258 => 143,  255 => 142,  247 => 137,  241 => 134,  235 => 131,  227 => 128,  222 => 125,  219 => 124,  211 => 119,  205 => 116,  199 => 113,  193 => 110,  187 => 107,  181 => 104,  175 => 101,  167 => 98,  162 => 95,  159 => 94,  148 => 86,  143 => 83,  141 => 82,  135 => 79,  126 => 73,  71 => 21,  67 => 20,  62 => 18,  57 => 16,  52 => 14,  45 => 10,  41 => 9,  37 => 8,  31 => 7,  27 => 6,  20 => 1,);
     }
 
     public function getSourceContext()
@@ -567,68 +565,66 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
 \t<link rel=\"stylesheet\" type=\"text/css\" href='{{base_url()}}/../assert/font-awesome-4.7.0/css/font-awesome.min.css'>
 \t<!-- <link rel=\"stylesheet\" type=\"text/css\" href=\"{{base_url()}}/assert/bootstrap-languages-master/languages.min.css\"> -->
 \t<!-- Font Awesome -->
-    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">
-    <!-- Bootstrap core CSS -->
-    <link href=\"{{base_url()}}/../assert/css/bootstrap.min.css\" rel=\"stylesheet\">
-    <!-- Material Design Bootstrap -->
-    <link href=\"{{base_url()}}/../assert/css/mdb.min.css\" rel=\"stylesheet\">
-    <!-- Your custom styles (optional) -->
-    <link href=\"{{base_url()}}/../assert/css/style.css\" rel=\"stylesheet\">
+  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">
+  <!-- Bootstrap core CSS -->
+  <link href=\"{{base_url()}}/../assert/css/bootstrap.min.css\" rel=\"stylesheet\">
+  <!-- Material Design Bootstrap -->
+  <link href=\"{{base_url()}}/../assert/css/mdb.min.css\" rel=\"stylesheet\">
+  <!-- Your custom styles (optional) -->
+  <link href=\"{{base_url()}}/../assert/css/style.css\" rel=\"stylesheet\">
 \t<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js\"></script>
 \t<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/myjs.js\"></script>
 \t<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/administrarUsuarios.js\"></script>
 </head>
-<style>
-        /* TEMPLATE STYLES */
-        
-        html,
-        body,
-        .view {
-            height: 100%;
-        }
-        /* Navigation*/
-        
-        .navbar {
-            background-color: #3c4f74;
-        }
-        
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-        
-        .top-nav-collapse {
-            background-color: #3c4f74;
-        }
-        
-        footer.page-footer {
-            background-color: #3c4f74;
-            margin-top: 2rem;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .navbar {
-                background-color: #1C2331;
-            }
-        }
-        /*Call to action*/
-        
-  
-        .view {
-            background: url(\"http://localhost/Proyecto_Licencias/img/licencias_background.png\")no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-        /*Contact section*/
-        
-        #contact .fa {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #1C2331;
-        }
+<style type=\"text/css\">
+html,
+body,
+.view {
+    height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: #3c4f74;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #3c4f74;
+}
+
+footer.page-footer {
+    background-color: #3c4f74;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+/*Call to action*/
+
+
+.view {
+    background: url(\"http://localhost/Proyecto_Licencias/img/licencias_background.png\")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Contact section*/
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1C2331;
+} 
 </style>
 <body><!-- {{ base_url() }} -->
 <nav class=\"navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar\">
@@ -882,17 +878,17 @@ class __TwigTemplate_ea13af68bb6d08150e9296426bbe77c06d4eb305e07208b0c8783fae43f
     <!--/.Copyright-->
 </footer>
 
-\t<!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/jquery-3.1.1.min.js\"></script>
-    <!-- Bootstrap tooltips -->
-    <script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/tether.min.js\"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/bootstrap.min.js\"></script>
-    <!-- MDB core JavaScript -->
-    <script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/mdb.min.js\"></script>
-\t<!--<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/jquery.min.js\"></script>
-\t<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/bootstrap.min.js\"></script>-->
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/jquery-3.1.1.min.js\"></script>
+<!-- Bootstrap tooltips -->
+<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/tether.min.js\"></script>
+<!-- Bootstrap core JavaScript -->
+<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/bootstrap.min.js\"></script>
+<!-- MDB core JavaScript -->
+<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/js/mdb.min.js\"></script>
+<!--<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/jquery.min.js\"></script>
+<script type=\"text/javascript\" src=\"{{base_url()}}/../assert/bootstrap-3.3.7-dist/js/bootstrap.min.js\"></script>-->
 </body>
 </html>", "plantillabase.twig.php", "C:\\xampp1\\htdocs\\ProyectoLicencias\\templates\\plantillabase.twig.php");
     }
